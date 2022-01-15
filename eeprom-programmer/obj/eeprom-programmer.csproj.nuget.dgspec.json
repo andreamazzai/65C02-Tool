@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pi/6502/65C02-Tool/eeprom-programmer/eeprom-programmer.csproj": {}
+  },
+  "projects": {
+    "/home/pi/6502/65C02-Tool/eeprom-programmer/eeprom-programmer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pi/6502/65C02-Tool/eeprom-programmer/eeprom-programmer.csproj",
+        "projectName": "eeprom-programmer",
+        "projectPath": "/home/pi/6502/65C02-Tool/eeprom-programmer/eeprom-programmer.csproj",
+        "packagesPath": "/home/pi/.nuget/packages/",
+        "outputPath": "/home/pi/6502/65C02-Tool/eeprom-programmer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/pi/.dotnet/sdk/5.0.210/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
